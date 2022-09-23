@@ -14,13 +14,13 @@ public class loopDemo {
 
 
         //Do-While
-       int j = 1;
+       int j = 100;
 
        do {
-           System.out.println("While Döngüsü Bitti");
+           System.out.println(j);
            j += 2;
-       }while (j>10);
-
+       }while (j<10);
+        System.out.println("Do-While Döngüsü Bitti");
 
     }
 }
