@@ -10,11 +10,11 @@ public class Main {
 
         int ogrenciSayisi = 11;
         System.out.println(mesaj + ogrenciSayisi);
-        System.out.println("Öğrenci Sayım : " +ogrenciSayisi);
-        System.out.println("Öğrenci Sayım : " +ogrenciSayisi);
-        System.out.println("Öğrenci Sayım : " +ogrenciSayisi);
-        System.out.println("Öğrenci Sayım : " +ogrenciSayisi);
-        System.out.println("Öğrenci Sayım : " +ogrenciSayisi);
+        System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
+        System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
+        System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
+        System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
+        System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
 
     }
 
