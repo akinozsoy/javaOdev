@@ -1,7 +1,7 @@
 public class switchDemo {
     public static void main(String[] args){
 
-        char grade = 'A';
+        char grade = 'C';
 
         switch (grade){
             case 'A':
@@ -21,8 +21,8 @@ public class switchDemo {
                 break;
             default:
                 System.out.println("Geçersiz not girdiniz");
-                 
 
-        }
+
+}
     }
 }
