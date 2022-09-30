@@ -6,7 +6,8 @@ public class methods2 {
         System.out.println(yeniMesaj);
         int sayi = topla(5,7);
         System.out.println(sayi);
-        int toplam = topla2(2,3,4,5,6,7,8,9,0);
+        int toplam = topla2(2,3,4,5,6,7,8,9,10);
+        System.out.println(toplam);
 
     }
     public static void ekle (){
