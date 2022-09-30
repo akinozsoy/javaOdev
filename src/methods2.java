@@ -1,9 +1,10 @@
 public class methods2 {
 
     public static void main(String[] args){
-        String mesaj = "Bugün Hava çok güzel.";
-        String yeniMesaj = sehirVer();
-        System.out.println(yeniMesaj);
+        String message = "It's a beautiful weather today.";
+        String newMessage = sehirVer();
+        System.out.println(message);
+        System.out.println(newMessage);
         int sayi = topla(5,7);
         System.out.println(sayi);
         int toplam = topla2(2,3,4,5,6,7,8,9,10);
