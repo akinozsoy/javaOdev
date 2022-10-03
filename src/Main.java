@@ -20,6 +20,11 @@ public class Main {
         customerManager.Add();
         customerManager.Remove();
         customerManager.Update();
+
+        int sayi1 = 10;
+        int sayi2 = 20;
+        sayi1 = 30;
+        System.out.println(sayi2);
     }
 
 }
