@@ -5,5 +5,5 @@ public class Product {
     String description;
     double price;
     int stockAmount;
-
+    String renk;
 }
