@@ -1,5 +1,5 @@
 public class ClassesWithAttributes {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Product product = new Product();
         product.name = "Laptop";
         product.id = 1;
@@ -9,6 +9,7 @@ public class ClassesWithAttributes {
         System.out.println(product.name);
         ProductManager productManager = new ProductManager();
         productManager.add(product);
+        productManager.Add2(1, "", "", 2, 200);
     }
 
 }
