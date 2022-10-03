@@ -32,7 +32,6 @@ public class methods2 {
         return toplam;
     }
     public static String sehirVer(){
-
-    return null;
+        return "Ankara";
     }
 }
