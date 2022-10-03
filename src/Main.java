@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Merhaba Java");
         System.out.println(merhaba);
 
-       /* int ogrenciSayisi = 11;
+        int ogrenciSayisi = 11;
         System.out.println(mesaj + ogrenciSayisi);
         System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
         System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
@@ -16,7 +16,6 @@ public class Main {
         System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
         System.out.println("Öğrenci Sayım : " + ogrenciSayisi);
 
-        */
         CustomerManager customerManager = new CustomerManager();
         customerManager.Add();
         customerManager.Remove();
