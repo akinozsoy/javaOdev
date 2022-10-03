@@ -1,15 +1,16 @@
 public class ClassesWithAttributes {
     public static void main(String[] args) {
         Product product = new Product();
-        product.name = "Laptop";
-        product.id = 1;
-        product.description = "Asus Laptop";
-        product.price = 5000;
-        product.stockAmount = 3;
-        System.out.println(product.name);
+        product.set_name(" Laptop");
+        product.setId(1);
+        product.set_description("Asus Laptop");
+        product.set_price(5000);
+        product.set_stockAmount(3);
+        product.getId();
+        System.out.println(product.get_name());
         ProductManager productManager = new ProductManager();
         productManager.add(product);
-        productManager.Add2(1, "", "", 2, 200);
+        System.out.println(product.get_kod());
     }
 
 }
