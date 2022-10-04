@@ -1,4 +1,7 @@
 public class Product {
+    public Product(){
+        System.out.println("Yapıcı Blok Çalıştı");
+    }
     //Attribute
     private int id;
     private String name;
