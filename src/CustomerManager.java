@@ -1,5 +1,5 @@
-public class CustomerManager {
-    public void Add() {
+public class CustomerManager extends PersonManager {
+    /*public void Add() {
         System.out.println("Müşteri Eklendi");
     }
 
@@ -10,4 +10,6 @@ public class CustomerManager {
     public void Update() {
         System.out.println("Müşteri Güncellendi");
     }
+    */
+
 }
