@@ -1,5 +1,5 @@
 public class KrediUI {
-    public void KrediHesapla(ogretmenKrediManager ogretmenKrediManager){
+    public static void KrediHesapla(ogretmenKrediManager ogretmenKrediManager){
         ogretmenKrediManager.hesapla();
     }
 }

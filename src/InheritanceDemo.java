@@ -3,6 +3,6 @@ public class InheritanceDemo {
     ogretmenKrediManager ogretmenKrediManager = new ogretmenKrediManager();
     ogretmenKrediManager.hesapla();
         KrediUI krediUI = new KrediUI();
-        KrediUI.KrediHesapla();
+        KrediUI.KrediHesapla(ogretmenKrediManager);
     }
 }
